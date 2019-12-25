@@ -1,0 +1,5 @@
+baseURL = "http://fity.me"
+author = "Fity"
+languageCode = "en-us"
+title = "Fity's Blog"
+theme = "spectre-pixel"
