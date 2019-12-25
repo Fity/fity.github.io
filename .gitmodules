@@ -1,0 +1,3 @@
+[submodule "themes/spectre-pixel"]
+	path = themes/spectre-pixel
+	url = git@github.com:Fity/hugo-spectre-pixel-theme.git
