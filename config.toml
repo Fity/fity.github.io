@@ -3,3 +3,18 @@ author = "Fity"
 languageCode = "en-us"
 title = "Fity's Blog"
 theme = "spectre-pixel"
+googleAnalytics = "UA-127996141-1"
+disqusShortname = "fityblog"
+
+[permalinks]
+    posts = "/:year/:month/:slug/"
+
+[params]
+    name = ""
+    description = "My Readings && My Thoughts"
+    bio = "Yet Another Programmer"
+    twitter = "fityme"
+
+[social]
+    twitter  = "https://www.twitter.com/fityme"
+    github = "http://github.com/fity"
