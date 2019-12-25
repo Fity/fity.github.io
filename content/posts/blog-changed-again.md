@@ -1,5 +1,5 @@
 ---
-title: "Blog Changed Again"
+title: "博客又迁移了"
 date: 2015-01-14T22:31:27+08:00
 draft: false
 ---
