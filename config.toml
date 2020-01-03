@@ -9,6 +9,11 @@ disqusShortname = "fityblog"
 [permalinks]
     posts = "/:year/:month/:slug/"
 
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
 [params]
     name = ""
     description = "My Readings && My Thoughts"
