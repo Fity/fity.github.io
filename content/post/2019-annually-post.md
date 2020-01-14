@@ -1,5 +1,6 @@
 ---
 title: "年度更新2019"
+slug: "annually"
 date: 2019-12-27T11:16:43+08:00
 categories: ["年度更新"]
 series: ["年度更新"]

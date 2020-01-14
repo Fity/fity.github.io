@@ -1,5 +1,6 @@
 ---
 title: "年度更新2018"
+slug: "annually"
 date: 2019-04-12T00:44:00+08:00
 categories: ["年度更新"]
 series: ["年度更新"]
