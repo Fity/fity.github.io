@@ -1,6 +1,7 @@
 ---
 title: "emacs上手指南"
 date: 2016-01-17T17:38:30+08:00
+categories: ["try everything"]
 draft: false
 ---
 
