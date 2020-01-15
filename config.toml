@@ -13,7 +13,7 @@ rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输
 # copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [permalinks]
-    post = "/:year/:month/:filename/"
+    post = "/:year/:month/:slug/"
 
 # language support # en / zh-cn / other... translations present in i18n/
 defaultContentLanguage = "en"           # Default language to use
