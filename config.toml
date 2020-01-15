@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://fity.me"
 languageCode = "en-us"
 title = "Fity's Blog"
 theme = "jane"
