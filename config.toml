@@ -39,13 +39,17 @@ url = "/categories"
 name = "Categories"
 weight = 2
 [[menu.main]]
-url = "/post"
+url = "/posts"
 name = "Archive"
 weight = 3
 [[menu.main]]
 url = "/tags"
 name = "Tags"
 weight = 4
+[[menu.main]]
+url = "/about/"
+name = "About"
+weight = 5
 [[menu.main]]
 url = "/index.xml"
 name = "RSS"

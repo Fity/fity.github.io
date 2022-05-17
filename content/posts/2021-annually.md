@@ -4,8 +4,7 @@ date: 2021-11-10T14:33:48+08:00
 draft: true
 reward: false
 lastmod: 2021-11-19
-author: "Amy"
-math: true
+author: "Fity"
 ---
 
 123123 \\(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\\) 1231
