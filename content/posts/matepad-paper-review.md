@@ -1,6 +1,8 @@
 ---
 title: "华为水墨屏平板 Matepad Paper 体验"
 date: 2022-06-18T20:28:38+08:00
+categories: ["try everything"]
+tags: [Review]
 draft: false
 ---
 # 背景
