@@ -5,6 +5,7 @@ draft: true
 reward: false
 lastmod: 2021-11-19
 author: "Fity"
+katex: true
 ---
 
 123123 \\(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\\) 1231

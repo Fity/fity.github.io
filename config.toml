@@ -2,46 +2,68 @@ baseURL = "https://fity.me"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "zh-cn"
 title = "Fity's Blog"
-copyright = "All rights reserved."
-theme = "diary"
+# copyright = "All rights reserved."
+theme = "jane"
+enableRobotsTXT = true
+enableEmoji = true
+
+hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
+paginate = 3              # Number of articles displayed on the homepage  # 首页每页显示的文章数
+rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
+disqusShortname = "fityblog"
 googleAnalytics = "UA-127996141-1"
 
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "perldoc"
-    tabWidth = 4
+[author]
+  name = "Fity Yang"
+
+# [markup]
+#   [markup.highlight]
+#     codeFences = true
+#     guessSyntax = false
+#     hl_Lines = ""
+#     lineNoStart = 1
+#     lineNos = false
+#     lineNumbersInTable = true
+#     noClasses = true
+#     style = "perldoc"
+    # tabWidth = 4
 
 [params]
-subtitle = "My Notes"
+  since = "2015"
+  subtitle = "中年人如何自救"
+  homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
+  rssFullContent = true     # if false, Rss feed instead of the summary
 
-title = "Fity's Blog" # will set 'og:site_name'
-description = "My Notes"  # will set 'og:description'
-favicon = "/images/favicon.ico"
+  toc = true
+  dateFormatToUse = "2006-01-02"
+  photoswipe = true
+  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+  customCSS = []
+  customJS = []
+  mainSections = ["post"]
+  moreMeta = true
+  showAuthorInfo = true # show author info below the article
 
-disqusShortname = "fityblog"
+  favicon = "/images/favicon.ico"
+
+
 enableLaTeX=true
 enableReadingTime=true
 
 [taxonomies]
+  author = "Fity"
+  tag = "tags"
   category = "categories"
   series = "series"
-  tag = "tags"
 
 [[menu.main]]
 url = "/categories"
 name = "Categories"
 weight = 2
-[[menu.main]]
-url = "/posts"
-name = "Archive"
-weight = 3
+# [[menu.main]]
+# url = "/posts"
+# name = "Archive"
+# weight = 3
 [[menu.main]]
 url = "/tags"
 name = "Tags"
@@ -50,7 +72,7 @@ weight = 4
 url = "/about/"
 name = "About"
 weight = 5
-[[menu.main]]
-url = "/index.xml"
-name = "RSS"
-weight = 6
+# [[menu.main]]
+# url = "/index.xml"
+# name = "RSS"
+# weight = 6
