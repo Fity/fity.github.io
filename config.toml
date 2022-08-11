@@ -1,6 +1,4 @@
 baseURL = "https://fity.me"
-DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
-languageCode = "zh-cn"
 title = "Fity's Blog"
 # copyright = "All rights reserved."
 theme = "jane"
@@ -12,6 +10,10 @@ paginate = 3              # Number of articles displayed on the homepage  # 首�
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = "fityblog"
 googleAnalytics = "UA-127996141-1"
+
+defaultContentLanguage = "en"           # Default language to use
+[languages.en]
+  languageCode = "en"
 
 [author]
   name = "Fity Yang"
