@@ -1,5 +1,7 @@
 ---
 title: "华为水墨屏平板 Matepad Paper 体验"
+cover:
+    image: "/images/huawei-matepad-paper-templates@2x.webp"
 date: 2022-06-18T20:28:38+08:00
 categories: ["try everything"]
 tags: [Review]

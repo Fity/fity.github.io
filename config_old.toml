@@ -1,0 +1,56 @@
+baseURL = "https://fity.me"
+DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "zh-cn"
+title = "Fity's Blog"
+copyright = "All rights reserved."
+theme = "diary"
+googleAnalytics = "UA-127996141-1"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
+
+[params]
+subtitle = "My Notes"
+
+title = "Fity's Blog" # will set 'og:site_name'
+description = "My Notes"  # will set 'og:description'
+favicon = "/images/favicon.ico"
+
+disqusShortname = "fityblog"
+enableLaTeX=true
+enableReadingTime=true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 3
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 4
+[[menu.main]]
+url = "/about/"
+name = "About"
+weight = 5
+[[menu.main]]
+url = "/index.xml"
+name = "RSS"
+weight = 6

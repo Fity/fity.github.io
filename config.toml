@@ -1,56 +1,70 @@
 baseURL = "https://fity.me"
 title = "Fity's Blog"
-# copyright = "All rights reserved."
-theme = "jane"
-enableRobotsTXT = true
-enableEmoji = true
-
-hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 3              # Number of articles displayed on the homepage  # 首页每页显示的文章数
-rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
-disqusShortname = "fityblog"
+theme = "PaperMod"
+DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "zh-cn"
+copyright = "All rights reserved."
 googleAnalytics = "UA-127996141-1"
 
-defaultContentLanguage = "en"           # Default language to use
-[languages.en]
-  languageCode = "en"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
 
-[author]
-  name = "Fity Yang"
-
-# [markup]
-#   [markup.highlight]
-#     codeFences = true
-#     guessSyntax = false
-#     hl_Lines = ""
-#     lineNoStart = 1
-#     lineNos = false
-#     lineNumbersInTable = true
-#     noClasses = true
-#     style = "perldoc"
-    # tabWidth = 4
+[minify]
+  disableXML = true
+  minifyOutput = true
 
 [params]
-  since = "2015"
-  subtitle = "中年人如何自救"
-  homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
-  rssFullContent = true     # if false, Rss feed instead of the summary
+env = "production"  # to enable google analytics, opengraph, twitter-cards and schema
+title = "Fity's Blog" # will set 'og:site_name'
+description = "IT Guy with too much things to learn"
+keywords = ["Blog", "Portfolio"]
+author = "Fity"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+showtoc = true
+tocopen = true
+comments = true
+disqusShortname = "fityblog"
 
-  toc = true
-  dateFormatToUse = "2006-01-02"
-  photoswipe = true
-  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
-  customCSS = []
-  customJS = []
-  mainSections = ["post"]
-  moreMeta = true
-  showAuthorInfo = true # show author info below the article
+  [params.homeInfoParams]
+    Title = "中年自救记录"
+    Content = "一名普通的贫穷码农，什么都不会。人到中年想自救。"
 
-  favicon = "/images/favicon.ico"
+  [params.cover]
+    responsiveImages = true
+    linkFullImages = true
+
+  [[params.socialIcons]]
+    name = "GitHub"
+    url = "https://github.com/fity"
+  [[params.socialIcons]]
+    name = "Email"
+    url = "mailto:imfity@gmail.com"
+
+  [params.assets]
+    favicon = "/images/favicon.ico"
 
 
-enableLaTeX=true
-enableReadingTime=true
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
 
 [taxonomies]
   author = "Fity"
