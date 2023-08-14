@@ -1,6 +1,6 @@
 baseURL = "https://fity.me"
 title = "Fity's Blog"
-theme = "PaperMod"
+theme = "PaperModX"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "zh-cn"
 copyright = "All rights reserved."
@@ -16,6 +16,7 @@ buildExpired = false
   minifyOutput = true
 
 [params]
+TocSide = "right"
 env = "production"  # to enable google analytics, opengraph, twitter-cards and schema
 title = "Fity's Blog" # will set 'og:site_name'
 description = "IT Guy with too much things to learn"
@@ -49,6 +50,9 @@ disqusShortname = "fityblog"
   [[params.socialIcons]]
     name = "Email"
     url = "mailto:imfity@gmail.com"
+  [[params.socialIcons]]
+    name = "RSS"
+    url = "/index.xml"
 
   [params.assets]
     favicon = "/images/favicon.ico"
@@ -88,7 +92,7 @@ weight = 4
 url = "/about/"
 name = "About"
 weight = 5
-# [[menu.main]]
+[[menu.main]]
 # url = "/index.xml"
 # name = "RSS"
 # weight = 6

@@ -1,3 +1,6 @@
 [submodule "themes/jane"]
 	path = themes/jane
 	url = git@github.com:Fity/hugo-theme-jane.git
+[submodule "themes/PaperModX"]
+	path = themes/PaperModX
+	url = https://github.com/reorx/hugo-PaperModX.git
