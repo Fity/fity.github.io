@@ -34,7 +34,8 @@ UseHugoToc = true
 showtoc = true
 tocopen = true
 comments = true
-disqusShortname = "fityblog"
+EnableImageZoom = true
+Email = "imfity@gmail.com"
 
   [params.homeInfoParams]
     Title = "中年自救记录"

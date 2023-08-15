@@ -36,22 +36,22 @@ draft: false
 因为官方没有针对微信读书做适配，偶尔会出现显示错误。这时候退出阅读界面重新选择书籍打开就会恢复正常。
 
 显示效果：
-![matepad paper weread](/posts/images/matepad-paper-weread.jpg)
+![matepad paper weread](matepad-paper-weread.jpg)
 
 分屏笔记效果：
-![matepad paper split screen note](/posts/images/matepad-paper-split-screen-note.jpg)
+![matepad paper split screen note](matepad-paper-split-screen-note.jpg)
 
 显示错误的效果：
-![matepad paper weread bug view](/posts/images/matepad-paper-weread-bug-view.jpg)
+![matepad paper weread bug view](matepad-paper-weread-bug-view.jpg)
 
 ### KOReader
 `Matepad Paper` 的 `CPU` 是一款 `ARM` CPU，在 [KOReader](http://koreader.rocks/) 的 `Release` 页面选择对应的 `APK` 下载并安装就好。
 
 原始显示效果：
-![matepad paper koreader original view](/posts/images/matepad-paper-koreader-original.jpg)
+![matepad paper koreader original view](matepad-paper-koreader-original.jpg)
 
 自动剪裁+提高一点对比度后效果：
-![matepad paper koreader cropped](/posts/images/matepad-paper-koreader-cropped.jpg)
+![matepad paper koreader cropped](matepad-paper-koreader-cropped.jpg)
 
 ### 续航
 1. 因为是 `Android` 平板，哪怕是水墨屏，待机也是会耗电的。连接 `WIFI` 的情况下，一晚上待机大概掉 *6%* 左右的电（没仔细算过，反正不到 *10%*）
