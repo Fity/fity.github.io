@@ -1,0 +1,7 @@
+
+@media screen and (min-width: 1350px) {
+    .toc.side.right {
+        right: calc((100% - var(--post-width) - var(--gap) * 2) / 2 - 265px - 15px);
+        width: 265px;
+    }
+}
