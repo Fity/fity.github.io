@@ -11,6 +11,26 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
+[languages]
+
+  [languages.zh]
+    disabled = false
+    languageCode = "zh"
+    languageName = "ZH"
+    weight = 0
+      [languages.zh.params.homeInfoParams]
+        Title = "中年自救记录"
+        Content = "一名普通的贫穷码农，什么都不会。人到中年想自救。"
+
+  [languages.en]
+    disabled = false
+    languageCode = "en"
+    languageName = "EN"
+    weight = 1
+      [languages.en.params.homeInfoParams]
+        Title = "Wrinkly's poor life"
+        Content = "A poor wrinkly with nothing useful skills. Here's a birdview of my life."
+
 [minify]
   disableXML = true
   minifyOutput = true

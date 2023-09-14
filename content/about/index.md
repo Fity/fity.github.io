@@ -2,6 +2,7 @@
 title: "About"
 date: 2019-12-25T22:51:17+08:00
 draft: false
+translationKey: "about"
 _build:
     list: never
 ---
