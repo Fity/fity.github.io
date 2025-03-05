@@ -1,7 +1,6 @@
 ---
 title: "华为水墨屏平板 Matepad Paper 体验"
-cover:
-    image: "/images/huawei-matepad-paper-templates@2x.webp"
+image: "images/huawei-matepad-paper-templates@2x.webp"
 date: 2022-06-18T20:28:38+08:00
 categories: ["try everything"]
 tags: [Review]
@@ -9,8 +8,8 @@ draft: false
 ---
 ## 背景
 
-背景当然是 `Kindle` 退出中国了。  
-在此之前，移动阅读主要还是靠手机，为此去年换手机时还换了 `Max` 款。`Kindle` 主要拿来看 `Kindle` 商城有的书或者在 [图灵](https://www.ituring.com.cn/) 买的电子书。这两个地方加起来书其实还挺全的，奈何微信读书前几年实在太香了，很多书用体验卡就能读。所以一直想要一个能装微信读书的水墨屏设备。  
+背景当然是 `Kindle` 退出中国了。
+在此之前，移动阅读主要还是靠手机，为此去年换手机时还换了 `Max` 款。`Kindle` 主要拿来看 `Kindle` 商城有的书或者在 [图灵](https://www.ituring.com.cn/) 买的电子书。这两个地方加起来书其实还挺全的，奈何微信读书前几年实在太香了，很多书用体验卡就能读。所以一直想要一个能装微信读书的水墨屏设备。
 恰好，最近文石又新出了一款小尺寸设备 `Poke 4`，立即加入购物车学习了一波，从 `Poke4` 看到 `Poke3`，再看到 `Note 5+`。文石的设备看了一圈，除了价格比同行贵一截，品控和售后口碑也不太行。在找另外的设备的时候就看到了 `Remarkable` 和华为的这款 `Matepad Paper`。两者价格差不多，`Remarkable` 主打手写体验，系统是 `Linux`，能装 `KOReader` 不能装微信读书。那么结论有了，买华为！
 
 ## 体验总结
@@ -69,5 +68,5 @@ draft: false
 2. 文章链接等共享因为需求不强烈，暂时没有解决。最简单的方案可以装个 `chrome` 浏览器，使用浏览器的书签同步功能
 
 ### 其他系统功能
-因为主要使用微信读书和 `KOReader`，所以不用系统的书城功能，也基本不用华为阅读（书架功能）。  
+因为主要使用微信读书和 `KOReader`，所以不用系统的书城功能，也基本不用华为阅读（书架功能）。
 因为记笔记有另外的方案了，笔记功能只用于把 `Matepad Paper` 当纸质笔记本时使用。典型的使用场景是记会议纪要。其他时候使用不多。

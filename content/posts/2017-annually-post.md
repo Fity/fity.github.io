@@ -1,6 +1,6 @@
 ---
 title: "年度更新2017"
-slug: "annually"
+slug: "annually-2017"
 date: 2017-11-28T00:44:00+08:00
 categories: ["年度更新"]
 series: ["年度更新"]
