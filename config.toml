@@ -1,6 +1,5 @@
 baseURL = "https://fity.me"
 title = "Fity's Blog"
-# theme = "hugo-theme-stack"
 DefaultContentLanguage = "zh-cn"      # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "zh-cn"
 copyright = "All rights reserved."
@@ -40,20 +39,6 @@ minifyOutput = true
 
 [params]
 env = "production"                                   # to enable google analytics, opengraph, twitter-cards and schema
-title = "Fity's Blog"                                # will set 'og:site_name'
-description = "IT Guy with too much things to learn"
-keywords = ["Blog", "Portfolio"]
-author = "Fity"
-defaultTheme = "auto"
-disableThemeToggle = false
-ShowReadingTime = true
-ShowShareButtons = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = false
-ShowWordCount = true
-ShowRssButtonInSectionTermList = true
-EnableImageZoom = true
-Email = "imfity@gmail.com"
 mainSections = ["posts", ]
 featuredImageField = "image"
 rssFullContent = true
@@ -71,22 +56,12 @@ Src = "images/avatar.jpg"
 
 [params.Author]
 email = "imfity@gmail.com"
+name = "Fity Yang"
 
 [params.article]
 headingAnchor = true
 math = true
-# toc = true
 readingTime = true
-
-## Widgets
-# [[params.widgets.homepage]]
-# type = "search"
-
-# [[params.widgets.homepage]]
-# type = "archives"
-
-# [[params.widgets.homepage]]
-# type = "categories"
 
 [[params.widgets.page]]
 type = "toc"
@@ -152,10 +127,6 @@ weight = 1
 url = "/categories"
 name = "Categories"
 weight = 2
-# [[menu.main]]
-# url = "/posts"
-# name = "Archive"
-# weight = 3
 [[menu.main]]
 url = "/tags"
 name = "Tags"
